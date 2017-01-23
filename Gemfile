@@ -33,8 +33,7 @@ group :doc do
 end
 
 #include bootstrap
-gem 'bootstrap-sass', '~> 3.3.5.1'
-gem 'sprockets', '2.11.0'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 
 
 # Use ActiveModel has_secure_password
