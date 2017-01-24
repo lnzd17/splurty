@@ -34,6 +34,7 @@
 
 .links{
   padding-top: 26px;
+  text-align: right;
 }
 
 .links a{
@@ -41,6 +42,8 @@
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
   font-family:'print_boldregular', sans-serif;
+  margin-left:20px;
+
 }
 
 header{
@@ -55,12 +58,10 @@ hr{
 h1{
   font-family: 'print_clearlyregular', sans-serif;
   font-size:48px;
-  padding-left:20px;
 }
 
 h2{
   font-family: 'print_boldregular', sans-serif;
-  padding-left:20px;
 }
 
 .next-quote{
@@ -79,5 +80,15 @@ h2{
 .logo:hover{
   text-decoration: none;
 }
+
+.about{
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+ 
+}
+
+.bio{
+  text-align: left;
+}
+
 
 
