@@ -10,11 +10,11 @@
   <header class="col-xs-12">
     <div class="circle">
   <br />
-  best
+  absurdity
   <br />
-  funny
+  and
   <br />
-  quotes
+  wit
 </div>
     <div class="col-xs-4 slogan">
       Splurting out your favorite quotes since 2017
@@ -30,7 +30,21 @@
 
   <br class="clear" />
 
-<%= yield %>
+ <div class="container">
+    <%= yield %>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+       <div class="col-xs-6">
+        <%= link_to "More nonsense please!", "#", class: 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Made in Brooklyn by <a href="http://thefirehoseproject.com">Lindsay Dages</a><br />
+        Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
