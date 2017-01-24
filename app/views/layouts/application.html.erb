@@ -7,7 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header class="col-xs-12">
+  <header>
+    <div class="col-xs-3">
+    <%=link_to root_path, class: 'logo' do %>
     <div class="circle">
   <br />
   absurdity
@@ -16,11 +18,13 @@
   <br />
   wit
 </div>
+<% end %>
+</div>
     <div class="col-xs-4 slogan">
       Splurting out your favorite quotes since 2017
     </div>
     <div class="col-xs-5 links">
-      <%= link_to 'Contribute', '#' %>
+      <%= link_to 'Contribute', new_quote_path %>
       <%= link_to 'About', '#' %>
     </div>
 
@@ -37,7 +41,7 @@
   <div class="footer">
     <div class="container">
        <div class="col-xs-6">
-        <%= link_to "More nonsense please!", "#", class: 'next-quote' %>
+        <%= link_to "More nonsense please!", root_path, class: 'next-quote' %>
       </div>
       <div class="col-xs-6 footer-blurb">
         Made in Brooklyn by <a href="http://thefirehoseproject.com">Lindsay Dages</a><br />
