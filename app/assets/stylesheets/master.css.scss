@@ -90,5 +90,22 @@ h2{
   text-align: left;
 }
 
+.modal{
+  font-family: 'print_boldregular', sans-serif;
+  font-size: 20px;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+
+
 
 
