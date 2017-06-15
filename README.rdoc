@@ -2,13 +2,13 @@
 
 This is the first Ruby on Rails application I built while attending FireHose Project's Software Engineering Bootcamp.
 
-=== Features:
+=== Features
 * A user can view a random quote upon visiting the homepage
 * A user can produce more random quotes using a link on the homepage
 * A user can contribute their own quote using the pop up modal on the homepage
 
 
-=== Tools:
+=== Tools
 * Heroku
 * Simple Form
 * Bootstrap
